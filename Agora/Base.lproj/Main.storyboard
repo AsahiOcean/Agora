@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vaE-WR-ZMy">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Video Chat View Controller-->
+        <scene sceneID="LGQ-sX-FNc">
+            <objects>
+                <viewController id="vaE-WR-ZMy" customClass="VideoChatViewController" customModule="Agora" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f96-rc-2cw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGg-LC-0sO" userLabel="muteButton">
+                                <rect key="frame" x="89" y="754.5" width="55" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="iGg-LC-0sO" secondAttribute="height" multiplier="1:1" id="5rx-eA-dTu"/>
+                                    <constraint firstAttribute="width" constant="55" id="ceV-X9-pN3"/>
+                                </constraints>
+                                <state key="normal" title="Mute" image="mic"/>
+                                <state key="selected" image="mute"/>
+                                <state key="highlighted" image="mic_pressed"/>
+                                <connections>
+                                    <action selector="didClickMuteButton:" destination="vaE-WR-ZMy" eventType="touchUpInside" id="8Aj-4d-Zpt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04x-JW-7Cr" userLabel="hangUpButton">
+                                <rect key="frame" x="172" y="747" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="LOM-eK-oef"/>
+                                    <constraint firstAttribute="width" secondItem="04x-JW-7Cr" secondAttribute="height" id="whq-zm-f6H"/>
+                                </constraints>
+                                <state key="normal" title="Hang Up" image="end"/>
+                                <state key="selected" image="call"/>
+                                <connections>
+                                    <action selector="didClickHangUpButton:" destination="vaE-WR-ZMy" eventType="touchUpInside" id="dYu-fE-DMV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7H-DI-4XD" userLabel="switchCameraButton">
+                                <rect key="frame" x="270" y="754.5" width="55" height="55"/>
+                                <state key="normal" title="Switch Camera" image="switch"/>
+                                <state key="selected" image="switch"/>
+                                <state key="highlighted" image="switch_pressed"/>
+                                <connections>
+                                    <action selector="didClickSwitchCameraButton:" destination="vaE-WR-ZMy" eventType="touchUpInside" id="uew-hc-RaH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ojh-xx-TCH"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                        <constraints>
+                            <constraint firstItem="04x-JW-7Cr" firstAttribute="centerX" secondItem="f96-rc-2cw" secondAttribute="centerX" id="38C-hT-LYH"/>
+                            <constraint firstItem="iGg-LC-0sO" firstAttribute="centerY" secondItem="04x-JW-7Cr" secondAttribute="centerY" id="3o5-fD-bqO"/>
+                            <constraint firstItem="Ojh-xx-TCH" firstAttribute="bottom" secondItem="04x-JW-7Cr" secondAttribute="bottom" constant="45" id="8EU-7U-biI"/>
+                            <constraint firstItem="v7H-DI-4XD" firstAttribute="centerY" secondItem="04x-JW-7Cr" secondAttribute="centerY" id="Gk7-wR-jqy"/>
+                            <constraint firstItem="v7H-DI-4XD" firstAttribute="leading" secondItem="04x-JW-7Cr" secondAttribute="trailing" constant="28" id="IOZ-YK-aaG"/>
+                            <constraint firstItem="04x-JW-7Cr" firstAttribute="leading" secondItem="iGg-LC-0sO" secondAttribute="trailing" constant="28" id="hJ3-jM-ocO"/>
+                            <constraint firstItem="v7H-DI-4XD" firstAttribute="height" secondItem="iGg-LC-0sO" secondAttribute="height" id="loe-jj-6Nw"/>
+                            <constraint firstItem="v7H-DI-4XD" firstAttribute="width" secondItem="iGg-LC-0sO" secondAttribute="width" id="qpI-xc-dJ0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraButton" destination="v7H-DI-4XD" id="LCx-Ec-abw"/>
+                        <outlet property="micButton" destination="iGg-LC-0sO" id="RGg-FV-4Kt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OqU-a6-INg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-767" y="77"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="call" width="284" height="284"/>
+        <image name="end" width="292" height="292"/>
+        <image name="mic" width="220" height="220"/>
+        <image name="mic_pressed" width="220" height="220"/>
+        <image name="mute" width="204" height="204"/>
+        <image name="switch" width="220" height="220"/>
+        <image name="switch_pressed" width="220" height="220"/>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
