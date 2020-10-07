@@ -1,3 +1,5 @@
 # Agora
 
-![](https://media.giphy.com/media/qgh8qy8ozHxPz2FtLh/giphy-downsized-large.gif)
+### Agora.io – платформа общения с помощью потоковой передачи голоса и видео
+
+![](https://media.giphy.com/media/xJdu9wNEpelY2J2jsk/giphy-downsized-large.gif)
