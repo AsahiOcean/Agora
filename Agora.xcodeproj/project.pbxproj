@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041A8DC2D3F4647AC45BFCE2 /* Pods_Agora_AgoraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D277669A570B9702775A0B /* Pods_Agora_AgoraUITests.framework */; };
-		1C3150582EA080697593BED9 /* Pods_Agora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3207582B7FE809F5091D4B7E /* Pods_Agora.framework */; };
 		3D9BD925252D1AAA003907BA /* JoinChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BD924252D1AAA003907BA /* JoinChannel.swift */; };
 		3DC89B4B252B222D00A102C0 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC89B4A252B222D00A102C0 /* ProgressIndicator.swift */; };
 		3DD87B23252CE1C3007F9252 /* extensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD87B22252CE1C3007F9252 /* extensionUIView.swift */; };
@@ -27,7 +25,6 @@
 		3DFA1008252A675000DFEE13 /* LocalVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA1007252A675000DFEE13 /* LocalVideoView.swift */; };
 		3DFA1009252A675000DFEE13 /* LocalVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA1007252A675000DFEE13 /* LocalVideoView.swift */; };
 		3DFA100A252A675000DFEE13 /* LocalVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA1007252A675000DFEE13 /* LocalVideoView.swift */; };
-		C33813C7AF8E92D10184E4EE /* Pods_AgoraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D635492D58855EDB0ACD8C1 /* Pods_AgoraTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F983A9DC6A66957EB377310 /* Pods-AgoraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraTests.release.xcconfig"; path = "Target Support Files/Pods-AgoraTests/Pods-AgoraTests.release.xcconfig"; sourceTree = "<group>"; };
-		3207582B7FE809F5091D4B7E /* Pods_Agora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9BD924252D1AAA003907BA /* JoinChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinChannel.swift; sourceTree = "<group>"; };
 		3DC89B4A252B222D00A102C0 /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 		3DD87B22252CE1C3007F9252 /* extensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUIView.swift; sourceTree = "<group>"; };
@@ -73,13 +68,6 @@
 		3DFA0FCA252A436700DFEE13 /* AppID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppID.swift; sourceTree = "<group>"; };
 		3DFA0FD2252A439300DFEE13 /* VideoChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatViewController.swift; sourceTree = "<group>"; };
 		3DFA1007252A675000DFEE13 /* LocalVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalVideoView.swift; sourceTree = "<group>"; };
-		54D277669A570B9702775A0B /* Pods_Agora_AgoraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agora_AgoraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C43C4691719E747C6510769 /* Pods-Agora-AgoraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora-AgoraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Agora-AgoraUITests/Pods-Agora-AgoraUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		78418EBFF78CBAEAF3A440C8 /* Pods-Agora-AgoraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora-AgoraUITests.release.xcconfig"; path = "Target Support Files/Pods-Agora-AgoraUITests/Pods-Agora-AgoraUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9D635492D58855EDB0ACD8C1 /* Pods_AgoraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgoraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA5FA60379B5C88C13CD1124 /* Pods-AgoraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraTests.debug.xcconfig"; path = "Target Support Files/Pods-AgoraTests/Pods-AgoraTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C17CE0740B22CC677CC0A6A8 /* Pods-Agora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora.debug.xcconfig"; path = "Target Support Files/Pods-Agora/Pods-Agora.debug.xcconfig"; sourceTree = "<group>"; };
-		F92B221D491DC6613AA1C8F0 /* Pods-Agora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora.release.xcconfig"; path = "Target Support Files/Pods-Agora/Pods-Agora.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C3150582EA080697593BED9 /* Pods_Agora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C33813C7AF8E92D10184E4EE /* Pods_AgoraTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041A8DC2D3F4647AC45BFCE2 /* Pods_Agora_AgoraUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,9 +217,6 @@
 			isa = PBXGroup;
 			children = (
 				3DFA0F6B252A24B500DFEE13 /* AgoraRtcKit.framework */,
-				3207582B7FE809F5091D4B7E /* Pods_Agora.framework */,
-				54D277669A570B9702775A0B /* Pods_Agora_AgoraUITests.framework */,
-				9D635492D58855EDB0ACD8C1 /* Pods_AgoraTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -266,12 +248,6 @@
 		9CF3B98894E7858935C6C47E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C17CE0740B22CC677CC0A6A8 /* Pods-Agora.debug.xcconfig */,
-				F92B221D491DC6613AA1C8F0 /* Pods-Agora.release.xcconfig */,
-				5C43C4691719E747C6510769 /* Pods-Agora-AgoraUITests.debug.xcconfig */,
-				78418EBFF78CBAEAF3A440C8 /* Pods-Agora-AgoraUITests.release.xcconfig */,
-				AA5FA60379B5C88C13CD1124 /* Pods-AgoraTests.debug.xcconfig */,
-				1F983A9DC6A66957EB377310 /* Pods-AgoraTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -283,11 +259,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DFA0F5B252A22B100DFEE13 /* Build configuration list for PBXNativeTarget "Agora" */;
 			buildPhases = (
-				D6B2E4313C4CAE0C7E55A8AE /* [CP] Check Pods Manifest.lock */,
 				3DFA0F2D252A22AE00DFEE13 /* Sources */,
 				3DFA0F2E252A22AE00DFEE13 /* Frameworks */,
 				3DFA0F2F252A22AE00DFEE13 /* Resources */,
-				B8CEFE5A6E10839B728886FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,7 +276,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DFA0F5E252A22B100DFEE13 /* Build configuration list for PBXNativeTarget "AgoraTests" */;
 			buildPhases = (
-				AC9A3BA8727791E5ED1508AE /* [CP] Check Pods Manifest.lock */,
 				3DFA0F43252A22B100DFEE13 /* Sources */,
 				3DFA0F44252A22B100DFEE13 /* Frameworks */,
 				3DFA0F45252A22B100DFEE13 /* Resources */,
@@ -321,11 +294,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DFA0F61252A22B100DFEE13 /* Build configuration list for PBXNativeTarget "AgoraUITests" */;
 			buildPhases = (
-				597ECF8B84FD78166AE3C038 /* [CP] Check Pods Manifest.lock */,
 				3DFA0F4E252A22B100DFEE13 /* Sources */,
 				3DFA0F4F252A22B100DFEE13 /* Frameworks */,
 				3DFA0F50252A22B100DFEE13 /* Resources */,
-				5FE5DD9754F658B72A89903B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -405,109 +376,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		597ECF8B84FD78166AE3C038 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Agora-AgoraUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5FE5DD9754F658B72A89903B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Agora-AgoraUITests/Pods-Agora-AgoraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Agora-AgoraUITests/Pods-Agora-AgoraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Agora-AgoraUITests/Pods-Agora-AgoraUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AC9A3BA8727791E5ED1508AE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AgoraTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8CEFE5A6E10839B728886FB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Agora/Pods-Agora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Agora/Pods-Agora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Agora/Pods-Agora-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D6B2E4313C4CAE0C7E55A8AE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Agora-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DFA0F2D252A22AE00DFEE13 /* Sources */ = {
@@ -699,7 +567,6 @@
 		};
 		3DFA0F5C252A22B100DFEE13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C17CE0740B22CC677CC0A6A8 /* Pods-Agora.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -723,7 +590,6 @@
 		};
 		3DFA0F5D252A22B100DFEE13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F92B221D491DC6613AA1C8F0 /* Pods-Agora.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -747,7 +613,6 @@
 		};
 		3DFA0F5F252A22B100DFEE13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA5FA60379B5C88C13CD1124 /* Pods-AgoraTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -770,7 +635,6 @@
 		};
 		3DFA0F60252A22B100DFEE13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F983A9DC6A66957EB377310 /* Pods-AgoraTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -793,7 +657,6 @@
 		};
 		3DFA0F62252A22B100DFEE13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C43C4691719E747C6510769 /* Pods-Agora-AgoraUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -814,7 +677,6 @@
 		};
 		3DFA0F63252A22B100DFEE13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78418EBFF78CBAEAF3A440C8 /* Pods-Agora-AgoraUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
